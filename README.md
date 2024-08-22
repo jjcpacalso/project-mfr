@@ -86,3 +86,57 @@ In "Mysteries of the Forgotten Realm," you are an adventurer who has stumbled up
 
 4. **User Input Validation:**
    - Ensure that player inputs are handled gracefully and provide helpful messages for invalid commands.
+
+
+### **Game World Map Design**
+
+#### **Map Layout:**
+
+- **Grid Size**: 5x5 (25 locations)
+- **Legend**:
+  - `F` - Forest
+  - `D` - Dungeon
+  - `C` - Castle
+  - `V` - Village
+  - `M` - Mountain
+  - `R` - River
+  - `P` - Portal (magical transport)
+
+#### **Map Grid:**
+
+|    | 1  | 2  | 3  | 4  | 5  |
+|----|----|----|----|----|----|
+| 1  | F  | D  | F  | C  | R  |
+| 2  | F  | V  | D  | F  | P  |
+| 3  | D  | F  | V  | M  | D  |
+| 4  | C  | D  | F  | R  | V  |
+| 5  | R  | F  | C  | D  | F  |
+
+#### **Location Descriptions:**
+
+1. **Forest (F)**: Dense woods with hidden paths and creatures.
+   - **Features**: Foraging, minor encounters, hidden quests.
+
+2. **Dungeon (D)**: Dark, maze-like underground areas.
+   - **Features**: Puzzles, traps, valuable loot, tough enemies.
+
+3. **Castle (C)**: Majestic fortresses with rulers and important NPCs.
+   - **Features**: Quests, storyline progression, shops, training.
+
+4. **Village (V)**: Small settlements with shops and NPCs.
+   - **Features**: Healing, trading, side quests, information.
+
+5. **Mountain (M)**: Rugged terrain with difficult traversal.
+   - **Features**: Rare resources, challenging enemies, scenic views.
+
+6. **River (R)**: Wide rivers that can be crossed or used for travel.
+   - **Features**: Fishing, river-related quests, possible hazards.
+
+7. **Portal (P)**: Magical gateways to other realms or fast travel points.
+   - **Features**: Instant travel to distant locations, special quests.
+
+#### **Navigation Notes:**
+
+- **Movement**: Players can move up, down, left, or right between adjacent locations.
+- **Encounters**: Random or scripted events depending on the location type.
+- **Interactions**: Each location offers unique interactions, such as battling monsters, finding items, or talking to NPCs.
