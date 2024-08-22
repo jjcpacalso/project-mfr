@@ -140,3 +140,46 @@ In "Mysteries of the Forgotten Realm," you are an adventurer who has stumbled up
 - **Movement**: Players can move up, down, left, or right between adjacent locations.
 - **Encounters**: Random or scripted events depending on the location type.
 - **Interactions**: Each location offers unique interactions, such as battling monsters, finding items, or talking to NPCs.
+
+
+### **Example Scenario: Forest Exploration**
+
+**1. Player Action:**
+- **Command**: `go north`
+
+**2. System Response:**
+- **Description**: “You enter a dense forest. The tall trees block out much of the sunlight, casting eerie shadows on the ground. You hear the rustle of leaves and distant animal calls.”
+
+**3. Minor Encounter Trigger:**
+- **Random Event**: The system checks for a random encounter. In this case, an encounter is triggered.
+
+**4. Encounter Details:**
+- **Description**: “As you walk through the underbrush, you come across a small, shimmering object partially buried in the dirt. It looks like a buried chest.”
+
+**5. Player Choices:**
+- **Option 1**: `examine chest`
+- **Option 2**: `ignore and continue`
+
+**6. If the Player Chooses to Examine the Chest:**
+- **System Response**: “You carefully dig out the chest. It’s old and dusty but seems to be in good condition. You open it and find a health potion and a handful of gold coins.”
+
+**7. Inventory Update:**
+- **Player Receives**:
+  - Health Potion
+  - 10 Gold Coins
+
+**8. Player Feedback:**
+- **Description**: “You have added a health potion and 10 gold coins to your inventory. The chest is now empty, and you continue your journey.”
+
+**9. If the Player Chooses to Ignore the Chest:**
+- **System Response**: “You decide to leave the chest behind and continue deeper into the forest. The path ahead looks promising.”
+
+**10. Continue Gameplay:**
+- The player continues to explore, encountering new challenges or discoveries based on their choices.
+
+### **Example Commands:**
+
+1. `go north`: Move to a new location.
+2. `examine chest`: Inspect the chest and potentially receive items.
+3. `ignore and continue`: Skip the chest and proceed.
+
