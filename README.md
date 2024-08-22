@@ -497,3 +497,128 @@ Serena is a dedicated cleric from a sacred order, focusing on healing and suppor
 1. **Balance Strengths and Weaknesses**: Ensure each character has distinct advantages and limitations to encourage team dynamics.
 2. **Background and Lore**: Provide a rich backstory that complements the character’s abilities and personality.
 3. **Visual and Roleplay Aspects**: Consider how the character’s race and class influence their appearance and roleplaying elements in the game.
+
+## Attribute management system
+
+### **1. **Core Attributes**
+
+**A. Strength (STR)**
+   - **Description**: Measures physical power and impact in melee combat.
+   - **Effects**:
+     - Increases damage with melee weapons.
+     - Enhances the ability to carry heavy items or equipment.
+     - Affects certain physical interactions (e.g., breaking doors).
+
+**B. Dexterity (DEX)**
+   - **Description**: Measures agility, reflexes, and precision.
+   - **Effects**:
+     - Improves accuracy with ranged weapons.
+     - Affects the ability to dodge or evade attacks.
+     - Influences lock-picking and stealth actions.
+
+**C. Constitution (CON)**
+   - **Description**: Represents overall health and endurance.
+   - **Effects**:
+     - Increases maximum health points (HP).
+     - Affects resistance to poison, disease, and physical damage.
+     - Influences stamina and fatigue levels.
+
+**D. Intelligence (INT)**
+   - **Description**: Reflects mental acuity and magical ability.
+   - **Effects**:
+     - Improves spellcasting power and mana efficiency.
+     - Enhances problem-solving abilities and puzzle-solving skills.
+     - Affects the effectiveness of knowledge-based interactions.
+
+**E. Wisdom (WIS)**
+   - **Description**: Measures perception, insight, and magical resistance.
+   - **Effects**:
+     - Enhances the effectiveness of healing and support spells.
+     - Increases resistance to magical effects and illusions.
+     - Influences decision-making and intuition.
+
+**F. Charisma (CHA)**
+   - **Description**: Reflects social skills and leadership abilities.
+   - **Effects**:
+     - Improves interactions with NPCs, including negotiation and persuasion.
+     - Affects the ability to lead or inspire allies.
+     - Influences the success rate of certain social-based quests.
+
+### **2. **Attribute Distribution**
+
+**A. Character Creation**
+   - **Initial Points**: Allocate a set number of points to core attributes based on character class and race.
+   - **Customization**: Allow players to distribute additional points as they level up or complete significant milestones.
+
+**B. Leveling Up**
+   - **Experience Points (XP)**: Gain XP through combat, quests, and exploration.
+   - **Attribute Points**: Earn attribute points upon leveling up to distribute among core attributes.
+
+**C. Equipment and Items**
+   - **Bonuses**: Items, armor, and weapons may provide temporary or permanent bonuses to attributes.
+   - **Enhancements**: Magical artifacts or special items can boost specific attributes.
+
+### **3. **Attribute Effects on Gameplay**
+
+**A. Combat**
+   - **Damage Calculation**: Use Strength and Dexterity to determine damage output and attack accuracy.
+   - **Defense**: Constitution affects damage resistance, while Dexterity influences evasion.
+
+**B. Magic**
+   - **Spellcasting**: Intelligence affects spell power and mana consumption, while Wisdom influences spell effectiveness and resistance.
+
+**C. Exploration**
+   - **Physical Interactions**: Strength allows for physical tasks like lifting or breaking objects, while Dexterity aids in climbing or sneaking.
+   - **Puzzle Solving**: Intelligence and Wisdom help in solving puzzles and overcoming challenges.
+
+**D. Social Interactions**
+   - **Charisma**: Influences dialogues, negotiations, and the ability to gain information or allies.
+
+### **4. **UI and Interaction**
+
+**A. Displaying Attributes**
+   - **Character Sheet**: Show core attributes on the character sheet or profile screen.
+   - **Combat Stats**: Display relevant attributes in combat scenarios to reflect their impact.
+
+**B. Attribute Commands**
+   - **Command Syntax**: Allow players to view and manage their attributes using commands like `view stats`, `allocate points`, or `equip item`.
+
+**C. Feedback and Updates**
+   - **Notifications**: Inform players of changes in attributes due to leveling up, item usage, or other events.
+   - **Visuals**: Use text descriptions to indicate how attributes affect gameplay.
+
+### **5. **Balancing and Scaling**
+
+**A. Difficulty Adjustment**
+   - **Scaling**: Adjust the impact of attributes based on the difficulty level of encounters and quests.
+   - **Challenge Balance**: Ensure that no single attribute becomes overwhelmingly dominant by providing balanced challenges and rewards.
+
+**B. Testing and Refinement**
+   - **Playtesting**: Regularly test the attribute system to ensure balance and address any imbalances or issues.
+   - **Player Feedback**: Gather feedback from players to refine and adjust attributes for better gameplay experience.
+
+### **Example Character Sheet**
+
+```plaintext
+**Character: Elara the Enchanter**
+- **Strength (STR): 8**
+- **Dexterity (DEX): 12**
+- **Constitution (CON): 10**
+- **Intelligence (INT): 18**
+- **Wisdom (WIS): 14**
+- **Charisma (CHA): 9**
+
+**Health Points (HP): 100**
+**Mana Points (MP): 150**
+
+**Skills:**
+- **Fireball** (INT-based spell)
+- **Teleport** (INT-based utility spell)
+- **Magic Shield** (WIS-based defensive spell)
+
+**Equipment:**
+- **Magic Staff** (+5 INT)
+- **Robe of Insight** (+3 WIS)
+```
+
+This attribute management system provides a structured and balanced approach to character development, ensuring that each attribute contributes meaningfully to the gameplay experience.
