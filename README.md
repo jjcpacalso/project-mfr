@@ -183,3 +183,94 @@ In "Mysteries of the Forgotten Realm," you are an adventurer who has stumbled up
 2. `examine chest`: Inspect the chest and potentially receive items.
 3. `ignore and continue`: Skip the chest and proceed.
 
+## Puzzles
+
+### **1. Riddle Puzzle**
+
+**Scenario:**
+The player enters a dimly lit room with a pedestal in the center. On the pedestal is an ancient tome with a riddle inscribed on its cover. The door to the next area is locked and requires solving the riddle.
+
+**Riddle:**
+"I speak without a mouth and hear without ears. I have nobody, but I come alive with wind. What am I?"
+
+**Solution:**
+- **Answer**: Echo
+
+**Gameplay Interaction:**
+- **Command**: `read tome`
+- **System Response**: “You read the riddle aloud: 'I speak without a mouth and hear without ears. I have nobody, but I come alive with wind. What am I?'”
+
+- **Command**: `answer echo`
+- **System Response**: “The door creaks open as you solve the riddle correctly.”
+
+### **2. Number Sequence Puzzle**
+
+**Scenario:**
+In a room with a locked door, there is a panel with a grid of numbers. The panel has a note that reads: “The code is the sum of the first three prime numbers.”
+
+**Prime Numbers Puzzle:**
+- The first three prime numbers are 2, 3, and 5.
+
+**Solution:**
+- **Code**: 10 (2 + 3 + 5)
+
+**Gameplay Interaction:**
+- **Command**: `enter code 10`
+- **System Response**: “The panel lights up and the door unlocks.”
+
+### **3. Pattern Recognition Puzzle**
+
+**Scenario:**
+The player encounters a wall with several symbols arranged in a pattern. Next to the wall is a lever and a note that reads: “Match the pattern to open the way.”
+
+**Pattern:**
+- Symbols: ☀, ☂, ☀, ☂, ☀
+- **Pattern**: The correct sequence to pull the lever is the repeated pattern.
+
+**Solution:**
+- **Correct Lever Sequence**: Pull the lever three times, once for each ☀ symbol in the pattern.
+
+**Gameplay Interaction:**
+- **Command**: `pull lever`
+- **System Response**: “You pull the lever three times in quick succession. The wall shifts and reveals a hidden passage.”
+
+### **4. Weight Puzzle**
+
+**Scenario:**
+In a room with a scale and several weights of different sizes, the player needs to balance the scale to unlock a door.
+
+**Instructions:**
+- "Place weights on the scale so that it balances perfectly."
+
+**Weights Available:**
+- 1 kg, 2 kg, 3 kg, 4 kg, and 5 kg.
+
+**Solution:**
+- The scale needs to balance at a specific weight, say 6 kg.
+
+**Gameplay Interaction:**
+- **Command**: `place weights 2 4`
+- **System Response**: “You place the 2 kg and 4 kg weights on the scale. It balances perfectly and the door creaks open.”
+
+### **5. Color Code Puzzle**
+
+**Scenario:**
+The player finds a door with four colored panels and a note saying: “The correct sequence will reveal the path. Red, Blue, Green, Yellow.”
+
+**Instructions:**
+- The panels need to be activated in the correct sequence to open the door.
+
+**Solution:**
+- **Sequence**: Red, Blue, Green, Yellow
+
+**Gameplay Interaction:**
+- **Command**: `activate panels Red Blue Green Yellow`
+- **System Response**: “The panels light up in the correct sequence and the door unlocks with a soft click.”
+
+### **Tips for Puzzles:**
+
+1. **Clarity**: Ensure the puzzle instructions and clues are clear to avoid frustrating players.
+2. **Feedback**: Provide immediate feedback for correct and incorrect answers.
+3. **Difficulty Balance**: Include a range of puzzle difficulties to cater to different player skill levels.
+4. **Hints**: Consider adding a hint system or options for players who might be stuck.
+
