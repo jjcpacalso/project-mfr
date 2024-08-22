@@ -274,3 +274,118 @@ The player finds a door with four colored panels and a note saying: “The corre
 3. **Difficulty Balance**: Include a range of puzzle difficulties to cater to different player skill levels.
 4. **Hints**: Consider adding a hint system or options for players who might be stuck.
 
+
+## Quests
+
+### **1. Quest: The Missing Heirloom**
+
+**Objective:**
+A villager has lost a valuable family heirloom in the nearby forest. The player is asked to retrieve it.
+
+**Quest Start:**
+- **NPC**: “I’ve lost a precious heirloom in the forest. It’s a locket that belonged to my grandmother. Can you help me find it?”
+
+**Steps:**
+1. **Explore the Forest**: The player must navigate through the forest to find the locket.
+2. **Solve a Puzzle**: The locket is hidden under a tree stump, which has a riddle inscribed on it.
+   - **Riddle**: “I can be cracked, made, told, and played. What am I?” (Answer: A joke)
+3. **Find the Locket**: After solving the riddle, the player finds the locket.
+
+**Completion:**
+- **NPC**: “Thank you so much! You’ve returned the heirloom. Here’s a reward of 50 gold coins and my deepest gratitude.”
+
+**Outcome:**
+- Player receives 50 gold coins and a boost in reputation with the village.
+
+---
+
+### **2. Quest: The Bandit Hideout**
+
+**Objective:**
+Bandits have been terrorizing a town, and the player must infiltrate their hideout and put an end to their operations.
+
+**Quest Start:**
+- **NPC**: “We’ve been plagued by bandits. Their hideout is to the east, in the old ruins. Can you deal with them?”
+
+**Steps:**
+1. **Locate the Hideout**: The player finds the hideout in the ruins and must sneak in or confront the bandits.
+2. **Combat Encounter**: Engage in combat with the bandit leaders and their guards.
+3. **Retrieve Stolen Goods**: Find and return stolen goods or valuables.
+
+**Completion:**
+- **NPC**: “You’ve saved us from the bandits! Here’s a reward of 100 gold coins and a special item.”
+
+**Outcome:**
+- Player receives 100 gold coins and a special item, like a rare weapon or armor.
+
+---
+
+### **3. Quest: The Cursed Statue**
+
+**Objective:**
+A statue in the town square has been cursed, causing strange occurrences. The player must lift the curse.
+
+**Quest Start:**
+- **NPC**: “The statue in the town square has been cursed. Strange things are happening. Can you help?”
+
+**Steps:**
+1. **Investigate the Statue**: Examine the statue and discover that it’s cursed by a powerful mage.
+2. **Find Ingredients**: Gather specific items needed for a counter-curse spell (e.g., rare herbs, magical crystals).
+3. **Perform the Ritual**: Use the items to perform a ritual to lift the curse.
+
+**Completion:**
+- **NPC**: “You’ve lifted the curse! The statue is restored. Here’s a magical amulet as a token of our thanks.”
+
+**Outcome:**
+- Player receives a magical amulet with special properties, and the town is safe once again.
+
+---
+
+### **4. Quest: The Ancient Tome**
+
+**Objective:**
+An ancient tome with forbidden knowledge has been stolen from a local scholar. The player must recover it.
+
+**Quest Start:**
+- **NPC**: “An ancient tome was stolen from my study. It contains powerful secrets. Can you retrieve it?”
+
+**Steps:**
+1. **Investigate the Theft**: Find clues about who might have stolen the tome.
+2. **Track the Thief**: Follow leads to a hidden cave or lair where the thief has taken refuge.
+3. **Confront the Thief**: Either negotiate with or battle the thief to recover the tome.
+
+**Completion:**
+- **NPC**: “Thank you for returning the tome! Here’s a magical scroll that may assist you in your adventures.”
+
+**Outcome:**
+- Player receives a magical scroll with a powerful spell or ability.
+
+---
+
+### **5. Quest: The Lost Pet**
+
+**Objective:**
+A local resident's beloved pet has gone missing. The player must find and return the pet.
+
+**Quest Start:**
+- **NPC**: “My pet cat has run off. I’m so worried. Can you help me find it?”
+
+**Steps:**
+1. **Search the Town**: Look for clues about the pet’s whereabouts (e.g., paw prints, sightings).
+2. **Search Specific Areas**: The pet might be found in a specific location like a park or alley.
+3. **Return the Pet**: Bring the pet back to the NPC.
+
+**Completion:**
+- **NPC**: “Oh, thank you so much! Here’s a small reward and a heartfelt thank you.”
+
+**Outcome:**
+- Player receives a small reward, like 20 gold coins, and a boost in rapport with the local community.
+
+---
+
+### **Quest Design Tips:**
+
+1. **Clear Objectives**: Ensure quests have clear goals and steps.
+2. **Engaging Storylines**: Provide context and narrative to make quests more engaging.
+3. **Variety**: Include a mix of combat, exploration, and puzzle-solving to keep gameplay diverse.
+4. **Rewards**: Offer meaningful rewards that align with the quest's difficulty and importance.
