@@ -621,4 +621,200 @@ Serena is a dedicated cleric from a sacred order, focusing on healing and suppor
 - **Robe of Insight** (+3 WIS)
 ```
 
-This attribute management system provides a structured and balanced approach to character development, ensuring that each attribute contributes meaningfully to the gameplay experience.
+## NPC interactions
+
+### **1. Basic NPC Interaction**
+
+**Scenario:** Player encounters an NPC in a town square.
+
+**Player Command:**
+- `talk to guard`
+
+**System Response:**
+- **Description**: “You approach the town guard. He looks stern but friendly.”
+- **NPC Dialogue**: “Greetings, traveler. I’m Captain Alden. How can I assist you today?”
+
+**Player Choices:**
+- `ask about quests`
+- `inquire about town`
+- `say goodbye`
+
+**NPC Dialogue for Each Choice:**
+1. **`ask about quests`**
+   - **System Response**: “Captain Alden responds, ‘We’ve been dealing with a bandit problem. If you’re up for it, you can help us deal with them.’”
+   - **Available Actions**:
+     - `accept quest`
+     - `decline quest`
+   
+2. **`inquire about town`**
+   - **System Response**: “Captain Alden says, ‘This is a peaceful town, but we have our troubles. The local blacksmith and inn are just down the road if you need anything.’”
+
+3. **`say goodbye`**
+   - **System Response**: “Captain Alden nods. ‘Safe travels, traveler.’”
+
+---
+
+### **2. Detailed NPC Dialogue**
+
+**Scenario:** Player is interacting with a shopkeeper in a market.
+
+**Player Command:**
+- `talk to shopkeeper`
+
+**System Response:**
+- **Description**: “The shopkeeper is busy organizing items on the shelves. He looks up and smiles as you approach.”
+- **NPC Dialogue**: “Hello there! I’m Jareth, the local merchant. Interested in buying or selling anything?”
+
+**Player Choices:**
+- `view inventory`
+- `sell items`
+- `ask about special items`
+- `say goodbye`
+
+**NPC Dialogue for Each Choice:**
+
+1. **`view inventory`**
+   - **System Response**: 
+     ```
+     Jareth shows you his wares:
+     - Healing Potion (10 Gold)
+     - Enchanted Sword (100 Gold)
+     - Map of the Forest (20 Gold)
+     
+     What would you like to buy?
+     ```
+   - **Available Actions**:
+     - `buy healing potion`
+     - `buy enchanted sword`
+     - `buy map of the forest`
+     - `close inventory`
+
+2. **`sell items`**
+   - **System Response**:
+     ```
+     Jareth says, ‘What items do you wish to sell?’
+     ```
+   - **Available Actions**:
+     - `sell old sword`
+     - `sell magic gem`
+     - `cancel`
+
+3. **`ask about special items`**
+   - **System Response**: “Jareth leans in and says, ‘I have a rare amulet that might interest you. It’s not on display, but I could show it to you if you’re serious.’”
+   - **Available Actions**:
+     - `view amulet`
+     - `decline`
+
+4. **`say goodbye`**
+   - **System Response**: “Jareth waves as you leave. ‘Come back anytime!’”
+
+---
+
+### **3. Quest Interaction**
+
+**Scenario:** Player is speaking with a quest giver in a tavern.
+
+**Player Command:**
+- `talk to tavern keeper`
+
+**System Response:**
+- **Description**: “The tavern keeper wipes down a table and looks up at you. She seems both welcoming and tired.”
+- **NPC Dialogue**: “Welcome to the Rusty Tankard. I’m Marta. You look like you’re here for a reason. Need some help or looking for work?”
+
+**Player Choices:**
+- `ask for work`
+- `buy a drink`
+- `ask about local rumors`
+- `say goodbye`
+
+**NPC Dialogue for Each Choice:**
+
+1. **`ask for work`**
+   - **System Response**: 
+     ```
+     Marta says, ‘Actually, we’ve got a problem with some rats in the cellar. If you’re brave enough, you could clear them out for us. We’ll reward you with some gold and a special brew.’ 
+     
+     Would you like to accept the job?
+     ```
+   - **Available Actions**:
+     - `accept job`
+     - `decline job`
+
+2. **`buy a drink`**
+   - **System Response**: 
+     ```
+     Marta serves you a drink. ‘That’ll be 5 gold, please. We have a special ale today if you’re interested.’
+     
+     What would you like to do?
+     ```
+   - **Available Actions**:
+     - `pay 5 gold`
+     - `order special ale`
+     - `decline`
+
+3. **`ask about local rumors`**
+   - **System Response**: “Marta leans in and whispers, ‘I heard there’s been strange lights seen in the old ruins. Some folks say it’s haunted. Might be worth checking out if you’re into that sort of thing.’”
+
+4. **`say goodbye`**
+   - **System Response**: “Marta nods and smiles. ‘Take care, and good luck out there!’”
+
+---
+
+### **4. Interaction with a Quest NPC**
+
+**Scenario:** Player has completed a quest and returns to the NPC.
+
+**Player Command:**
+- `talk to wizard`
+
+**System Response:**
+- **Description**: “The wizard is pacing in his study, surrounded by arcane tomes and mystical artifacts.”
+- **NPC Dialogue**: “Ah, you’ve returned. Did you manage to retrieve the ancient scroll?”
+
+**Player Choices:**
+- `give scroll`
+- `ask for additional reward`
+- `ask about next steps`
+- `say goodbye`
+
+**NPC Dialogue for Each Choice:**
+
+1. **`give scroll`**
+   - **System Response**: 
+     ```
+     The wizard takes the scroll and examines it carefully. ‘Excellent work! Here is your reward, and as promised, a magical ring for your trouble.’
+     
+     You receive 200 gold and a Magical Ring.
+     ```
+   - **Available Actions**:
+     - `view magical ring`
+     - `thank the wizard`
+     - `leave`
+
+2. **`ask for additional reward`**
+   - **System Response**: “The wizard looks at you thoughtfully. ‘You did a great job, but I don’t have any more rewards to offer at the moment. Perhaps in the future.’”
+
+3. **`ask about next steps`**
+   - **System Response**: “The wizard nods. ‘There are more tasks that need attention. If you’re willing, I could use your help with a new arcane investigation. Would you be interested?’”
+
+4. **`say goodbye`**
+   - **System Response**: “The wizard waves you off. ‘Safe travels, and may your path be filled with magic and wonder!’”
+
+---
+
+### **5. Command Syntax and Response**
+
+**Commands:**
+- `talk to [NPC Name]`
+- `ask about [topic]`
+- `buy [item]`
+- `sell [item]`
+- `give [item]`
+- `accept [quest]`
+- `decline [quest]`
+- `view [item]`
+
+**Responses:**
+- Provide clear and informative feedback based on the player’s command.
+- Include NPC dialogue, action outcomes, and any relevant details about items or quests.
+
