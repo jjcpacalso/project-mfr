@@ -1,0 +1,4 @@
+# Locations
+
+ - Tavern
+ - Town square
